@@ -1,0 +1,86 @@
+[ 2015-10-06T23:10:39+08:00 ] 127.0.0.1 /test/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.078744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.085058s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.349430s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.046129s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.311100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.314863s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.063648s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.049927s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009498s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.030771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.175997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.021277s ]
+
+[ 2015-10-06T23:11:06+08:00 ] 127.0.0.1 /test/wish/index.php/Index/Index/handle
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.065059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.072742s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019914s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.146171s ]
+SQL: INSERT INTO `hd_wish` (`username`,`content`,`time`) VALUES ('111111111111111','1111111111111',1444144266) [ RunTime:0.003439s ]
+
+[ 2015-10-06T23:11:09+08:00 ] 127.0.0.1 /test/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013060s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.015301s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002548s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.161654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003985s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020390s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005269s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007481s ]
+
+[ 2015-10-06T23:11:13+08:00 ] 127.0.0.1 /test/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007195s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.008033s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.001313s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101496s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004171s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005339s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002842s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026865s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006832s ]
+
+[ 2015-10-06T23:11:16+08:00 ] 127.0.0.1 /test/wish/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006920s ]
+SQL: SHOW COLUMNS FROM `hd_wish` [ RunTime:0.072257s ]
+SQL: SELECT * FROM `hd_wish`  [ RunTime:0.002543s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.094530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098369s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003025s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004658s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001763s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003382s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005098s ]
+
